@@ -40,4 +40,3 @@ function AutoDoter() { //Function dotting and checking
         
     }
 }
-//com

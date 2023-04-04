@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Main</title>
+</head>
+
+<body bgcolor="##000000"></body>
+
+<input type="textContent" maxlength="15" class="IpInput" id="IpInput" placeholder='input ip xxx.xxx.xxx.xxx'
+  oninput="AutoDoter()" onkeydown="return filter(event.key)" onchange="AutoDoter()">
+<p id="info"></p>
+<script src="scripts/AutoDoter.js"></script>
+<style>
+  .IpInput {
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(45deg,
+        #ffffff 15%,
+        /* #2f00ff 65%,
+        #ff0000 5% */
+        );
+  }
+</style>
+</body>
+
+</html>

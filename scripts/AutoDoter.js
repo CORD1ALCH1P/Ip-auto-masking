@@ -1,4 +1,4 @@
-function filter(key) { //symbol filter
+function filter(key) { //symbol filter 
     return ( key == 'Delete' || 
         key == 'ctrlDown' ||
         key == 'Backspace' ||
